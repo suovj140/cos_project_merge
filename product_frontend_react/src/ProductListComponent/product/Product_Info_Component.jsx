@@ -136,7 +136,7 @@ function ProductInfoComponent(props){
                                 <InputLabel style = {{minWidth : "120px"}}>COLOR</InputLabel>
                                 <Select name = "optioncolor" onChange = {changcolor} style = {{minWidth : "240px"}}>
                                     {setcolor && setcolor.map(color =>
-                                        <option value = {color || ''}> {color} </option>
+                                        <option style={{backgroundColor:color, height:'15px', width:'15px', marginLeft:'5px', marginBottom:'5px'}} value = {color || ''}>{color}</option>
                                     )}
                                 </Select>
                                 </FormControl>
