@@ -1,5 +1,5 @@
 import {BrowserRouter as Router} from "react-router-dom";
-import AppRouter from './ProductListComponent/route/RouterComponent';
+import AppRouter from './RouterComponent';
 import Banner from "./Maincomponent/Banner";
 import Footer from "./Maincomponent/Footer";
 //import {ScrollToTop} from './ScrollToTop';
