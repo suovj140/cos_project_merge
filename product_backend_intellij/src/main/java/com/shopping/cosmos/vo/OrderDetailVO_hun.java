@@ -3,7 +3,7 @@ package com.shopping.cosmos.vo;
 import lombok.Data;
 
 @Data
-public class OrderDetailVO {
+public class OrderDetailVO_hun {
         int product_seq;
         int product_id;
         String product_title;

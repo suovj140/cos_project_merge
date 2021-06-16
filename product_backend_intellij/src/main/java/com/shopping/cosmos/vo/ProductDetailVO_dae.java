@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class ProductDetailVO {
+public class ProductDetailVO_dae {
 
     private int product_seq;
     private int product_id;

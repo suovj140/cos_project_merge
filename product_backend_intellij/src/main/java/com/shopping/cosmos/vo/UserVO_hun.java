@@ -5,7 +5,7 @@ import lombok.Data;
 import java.sql.Date;
 
 @Data
-public class UserVO {
+public class UserVO_hun {
         // 유저 기본 정보 출력
         private String user_email;
         private String user_password;

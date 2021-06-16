@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Data
-public class ProductVO {
+public class ProductVO_hun {
 
     int rnum;
     int product_id;
